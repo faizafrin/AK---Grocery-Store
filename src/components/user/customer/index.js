@@ -9,22 +9,23 @@ function index() {
     let data = [
         {
             img:"image/pic-1.png",
-            name :"john",
-            para :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.",
+            name :"Michael",
+            para :"AK Grocery stands out amongst all the other online grocery stores in Chennai because it has a wide variety of items at affordable prices with a friendly and timely service. Finally we found fresh, quality and affordable groceries here... Thank you AK Grocery for your service at Chennai.",
+            
             star : 4
         },
         {
             img:"image/pic-2.png",
-            name :"Marey",
-            para :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.",
+            name :"Jessy",
+            para :"My experience with this grocery store has always been pleasant and the staff is super friendly. They always deliver high quality items at reasonable prices. I purchase my weekly groceries at AK Grocery only and I am happy to be their customer for almost an year now.",
             star : 4
         },
         {
             // img:"image/loading.svg",
-            img:"image/pic-3.png",
-            name :"Suriya",
-            para :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.",
-            star : 4
+            img:"image/pic-4.png",
+            name :"Zarah",
+            para :"I had to walk to the nearby store at least twice a day to purchase and fill in the empty grocery jars in my home. It's probably a good thing that I found this website. Its really amazing to shop with Akgrocery.com when you want something fast. Customer service is also great.",
+            star : 5
         },
         // {
         //     img:"image/pic-4.png",
