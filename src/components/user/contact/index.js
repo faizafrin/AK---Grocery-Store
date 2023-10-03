@@ -17,19 +17,19 @@ function index() {
           <p class="fa fa-map-marker"></p>
             
             
-              <p><span>Address:</span> 3/55 North street, Chennai 001.</p>
+              <p><span>Address:</span> 2/3 New street, Chennai 001.</p>
           
           </div>
           <div class=" contact-detail">
           <p class="fa fa-phone "></p>
             
-              <p><span>Phone:</span> <a href="tel://1234567920">9588339077</a></p>
+              <p><span>Phone:</span> <a href="tel://1234567920">81********</a></p>
            
           </div>
           <div class=" contact-detail">
           <p class="fa fa-paper-plane"></p>
             
-              <p><span>Email:</span> <a href="mailto:info@yoursite.com">gstore@gmail.com</a></p>
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">akgstore@gmail.com</a></p>
           
           </div>
       
