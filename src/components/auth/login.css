@@ -1,0 +1,143 @@
+.login-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/istock.webp');
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  padding: 80px 40px 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+.form > .img {
+  position: absolute;
+  top: -0px;
+  left: calc(50% - 50px);
+  width: 70px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+.form h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  color: #ff652f;
+}
+
+.forgot {
+  margin-bottom: 10px;
+  color: white;
+  text-align: end;
+  cursor: pointer;
+}
+.submit-btn {
+  display: block;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  background: #ff652f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  min-width: 8rem;
+}
+
+.new-user {
+  color: white;
+  text-align: center;
+}
+.new-user > span {
+  color: blue;
+}
+
+.spinner {
+  width: 1.4rem;
+}
+
+.back-to-login {
+  text-align: center;
+}
+.forgot:hover,
+.new-user > span:hover,
+.back-to-login > span:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.reset-form-submit-btn {
+  display: block;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  background: #ff652f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  min-width: 15rem;
+}
+
+.password-wrap{
+  position: relative;
+}
+.eye{
+  position: absolute;
+  top: 8px;
+  right: 30px;
+  cursor: pointer;
+  
+}
+.eye > i {
+  color: black;
+}
+
+.sss{
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  position: absolute;
+right: 15px;
+bottom: 15px;
+}
+
+.sss p {
+  text-indent: 20px;
+  margin: 6px;
+}
+
+@media screen and (max-width:1050){
+  .sss{
+    padding: 10px;
+    /* position: static; */
+  /* right: 15px;
+  bottom: 15px; */
+  }
+  .login-wrapper {
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+}

@@ -1,0 +1,28 @@
+.customer-container{
+    justify-content: center;
+}
+.customer-card{
+    width: 18rem !important;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -0.3rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+.customer-card > h3{
+    font-size: 1.4rem;
+    color:var(--black);
+}
+.customer-card > p{
+    color:var(--light-color); 
+}
+
+@media (max-width: 777px) {
+    .customer-card > div {
+    margin: 30px;
+    margin-bottom: 0px;
+    }
+}

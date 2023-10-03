@@ -1,0 +1,82 @@
+/* .signup__bg{
+    background-image: url(https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    height:92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+} */
+
+.signup-profile-pic__container{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.signup-profile-pic{
+    width:100px;
+    border-radius:50%;
+    border:2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: transparent;
+    cursor: pointer;
+    z-index: 99;
+    width: 1rem;
+    font-size: large;
+}
+
+.kkk{
+     margin: 0 auto;
+    
+}
+
+/* @media screen and (max-width:800px){
+    .kkk{ 
+        width: 80%;     
+   }
+} */
+
+@media screen and (min-width:300px) and (max-width:550px){
+    .kkk{ 
+        width: 80%;     
+   }
+}
+
+@media screen and (min-width:551px) and (max-width:900px){
+    .kkk{ 
+        width: 60%;     
+   }
+}
+@media screen and (min-width:901px) and (max-width:1500px){
+    .kkk{ 
+        width: 50%;     
+   }
+}
+
+@media screen and (min-width:1501px){
+    .kkk{ 
+        width:450px     
+   }
+}
+
+/* @media screen and (max-width:1000px){
+    .kkk{ 
+        width: 60%;     
+   }
+} */
+
+/* @media screen and (max-width:2000px){
+    .kkk{ 
+        width: 35%;     
+   }
+} */

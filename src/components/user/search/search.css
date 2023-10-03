@@ -1,0 +1,36 @@
+.search-form{
+    position: absolute;
+    top:95px;
+    right:0;
+    width: 30rem;
+    height:3.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    transition: .4s linear;
+}
+#search-form{
+    display: none;
+    
+}
+ .search-form input{
+    height:100%;
+    width:100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.5rem;
+    color:var(--black);
+    padding:0 1.5rem;
+}
+ .search-form label{
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+ .search-form label:hover{
+    color:var(--orange);
+}

@@ -1,0 +1,21 @@
+.feature-container{
+    justify-content: center;
+}
+.feature-card {
+    width: 16rem !important; 
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -0.3rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .4rem;
+}
+.feature-card > h3{
+    font-size: 1.4rem;
+    color:var(--black);
+}
+.feature-card > p{
+    color:var(--light-color); 
+}

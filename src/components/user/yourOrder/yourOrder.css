@@ -1,0 +1,87 @@
+.your-orders{
+ 
+    padding: 30px;
+background-image: url('../../../assets/background.jpg');
+   min-height: 100vh;
+   color: black;
+}
+.your-orders > h5{
+    text-align: center;
+padding: 10px 10px;
+color: white;
+}
+
+.your-order{
+    background-color: white;
+    margin: 15px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+    
+    
+    
+}
+.your-order > .bb {
+    color : green;
+    font-size: 1.2rem;
+    
+}
+.your-order > .cc {
+    color : red;
+    font-size: 1.2rem;
+    
+}
+/* .payment{
+    color: blue;
+    font-size: large;
+    font-weight: 500;
+} */
+
+
+@media screen and (max-width:1100px) {
+
+    .your-orders{
+        max-width: 100vw !important;
+        padding: 10px;
+    }
+    .your-order{
+        
+        background-color: white;
+        margin: 15px 0;
+        padding: 20px 0;
+        border-radius: 10px; 
+        overflow-x: auto;
+        
+        
+    }
+    .your-order .aa{
+        min-width: 820px;
+              
+    }
+    .your-order .ee{
+        min-width: 820px;
+    
+     
+    }
+    .your-order{
+        background-color: white;
+        margin: 15px auto;
+        padding: 20px 0;
+        border-radius: 10px;
+        width: 100%;
+        
+        
+    }
+}
+
+@media screen and (min-width:1101px) {
+    
+    .your-order{
+        background-color: white;
+        margin: 15px auto;
+        padding: 20px 0;
+        border-radius: 10px;
+        width: 75%;
+        
+        
+    }
+}

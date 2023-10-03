@@ -1,0 +1,146 @@
+.user-header{
+    position: sticky;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0.4rem 0;
+    background:rgb(8, 139, 159);
+    box-shadow: var(--box-shadow);
+    color: rgb(234, 212, 13);
+}
+.logo{
+    font-size: 2rem;
+}
+/* .logo > i{
+    color: var(--orange);
+} */
+.user-navbar >div> a{
+    margin: 0 10px;
+    color: white;
+
+}
+.user-navbar > div > a:hover{
+
+    color:  var(--orange);
+    
+}
+.icons > .kk{
+    height: 2.5rem;
+    width: 2.5rem; 
+    line-height: 2.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--black);
+    font-size: 1.5rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.icons > .aa{
+    /* height: 2.5rem; */
+    /* width: 2.5rem; 
+    line-height: 2.5rem; */
+    border-radius: .5rem;
+    background: #eee;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 10px;
+}
+.icons > .carts{
+    height: 2.5rem;
+    max-width: 5.5rem; 
+    line-height: 2.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--black);
+    font-size: 1.6rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px;
+    padding-right: 10px;
+}
+
+.icons > span:hover{
+    background: var(--orange);
+    color:#fff;
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+
+
+@media (max-width: 991px) {
+    
+    #hide .nav {
+        right: -200px;
+    }
+    #menu-btn{
+        display: inline-block;
+    }
+ 
+    .nav{
+        position: fixed; 
+         display: flex;
+         justify-content: flex-start;
+         padding-top: 15px;
+         flex-direction: column;
+         width: 150px;
+         background-color: #004f78;
+         gap: 20px;
+         top: 0;
+         right: 0; 
+         z-index: 100;
+         height: 100vh;
+         transition: right 0.8s;
+         }
+         .nav > a{
+            text-align: center;
+            color: #eee !important;
+         }
+         .nav > span{
+            height: 2.5rem;
+            width: 2.5rem; 
+            line-height: 2.5rem;
+            border-radius: .5rem;
+            background: #eee;
+            color:var(--black);
+            font-size: 1.6rem;
+            margin-left: .3rem;
+            cursor: pointer;
+            text-align: center;
+            
+         }
+         .nav > span:hover{
+            background: var(--orange);
+             color:#fff;
+         }
+         .user-navbar >div> a{
+            margin: 0 10px;
+            color: white;
+        
+        }
+        .user-navbar > div > a:hover{
+        
+            color:  var(--orange);
+            
+        }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .logo{
+        font-size: 1.3rem;
+    }
+}

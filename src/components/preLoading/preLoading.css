@@ -1,0 +1,106 @@
+.loaderm {
+    background-color: #dbad02;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: calc(50vh - 50px);
+    left: calc(50vw - 50px);
+    border-radius: 10%;
+    animation: loader_rotate 5.6s linear infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes loader_rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .shape1, .shape2, .shape3, .shape4{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  
+  .shape1 {
+    background-color: #b60130;
+    animation: shape1 2.8s infinite;
+  }
+  
+  .shape2 {
+    background-color: #412b8f;
+    animation: shape2 2.8s infinite;
+  }
+  
+  .shape3 {
+    background-color: #6fa518;
+    animation: shape3 2.8s infinite;
+  }
+  
+  .shape4 {
+    background-color: #017c6a;
+    animation: shape4 2.8s infinite;
+  }
+  
+  @keyframes shape1 {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px) rotate(360deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes shape2 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(100px) rotate(360deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes shape3 {
+    0% {
+      transform: translate(0);
+    }
+    50% {
+      transform: translate(-100px) rotate(360deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes shape4 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px) rotate(360deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  .ggg{
+    color : red;
+    position : absolute;
+    top: 69%;
+    right: 30%;
+    
+  }
